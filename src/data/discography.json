@@ -1,0 +1,447 @@
+{
+    "releases": [
+        {
+            "releaseName": "Indeed True Live",
+            "releaseArtist": "Artificial Silence",
+            "releaseDate": "2022-10-07",
+            "releaseType": "Live",
+            "coverUrl": "albumart/IndeedTrueLive.jpg",
+            "links": {
+                "bandcamp": "https://artificialsilence.bandcamp.com/album/indeed-true-live",
+                "spotify": "https://open.spotify.com/album/0EkJSmTd7xEeEHNHZjrhGf",
+                "amazonMusic": "https://www.amazon.com/music/player/albums/B0BGQN1JJK",
+                "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kGG9UWGhu00FKMOaDhOAc8DzNbC9Zvr4o",
+                "appleMusic": "https://music.apple.com/us/album/indeed-true-live-ep/1647420768",
+                "reddit": ""
+            },
+            "tracks": [
+                {
+                    "trackTitle": "Skin Deep (Live)",
+                    "trackNumber": 1,
+                    "trackLength": 381,
+                    "videoLink": "https://youtu.be/-YFmVD6gGZw"
+                },
+                {
+                    "trackTitle": "Latency (Live)",
+                    "trackNumber": 2,
+                    "trackLength": 269,
+                    "videoLink": "https://youtu.be/H-rZJlV71nw"
+                },
+                {
+                    "trackTitle": "Innocent (Live)",
+                    "trackNumber": 3,
+                    "trackLength": 219,
+                    "videoLink": "https://youtu.be/F-OWSwcbqt4"
+                },
+                {
+                    "trackTitle": "In the Midst of a Dream (Live)",
+                    "trackNumber": 4,
+                    "trackLength": 406,
+                    "videoLink": "https://youtu.be/lWpc81Jiemk"
+                },
+                {
+                    "trackTitle": "The Empath (Live)",
+                    "trackNumber": 5,
+                    "trackLength": 262,
+                    "videoLink": "https://youtu.be/ZVAzZB03H88"
+                }
+            ]
+        },
+        {
+            "releaseName": "Halcyon Arrhythmia",
+            "releaseArtist": "Halcyon Arrhythmia",
+            "releaseDate": "2021-12-10",
+            "releaseType": "Album",
+            "coverUrl": "albumart/HalcyonArrhythmia.jpg",
+            "links": {
+                "bandcamp": "https://halcyonarrhythmia.bandcamp.com/album/halcyon-arrhythmia",
+                "spotify": "https://open.spotify.com/album/2asVWwBQ9dBSFl5aCgQYsX",
+                "amazonMusic": "https://www.amazon.com/music/player/albums/B09N4TMH5C",
+                "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m_Fct9hKm6sE_woGTGtX3GqAK80Od8TWM",
+                "appleMusic": "https://music.apple.com/us/album/halcyon-arrhythmia/1598952952",
+                "reddit": ""
+            },
+            "tracks": [
+                {
+                    "trackTitle": "Fundamentals",
+                    "trackNumber": 1,
+                    "trackLength": 670
+                },
+                {
+                    "trackTitle": "Light & Sound",
+                    "trackNumber": 2,
+                    "trackLength": 307
+                },
+                {
+                    "trackTitle": "Aquamarine",
+                    "trackNumber": 3,
+                    "trackLength": 460,
+                    "videoLink": "https://youtu.be/pxdIycFwS5c"
+                },
+                {
+                    "trackTitle": "Paths Divide",
+                    "trackNumber": 4,
+                    "trackLength": 619
+                },
+                {
+                    "trackTitle": "Halcyon Arrhythmia",
+                    "trackNumber": 5,
+                    "trackLength": 181
+                }
+            ]
+        },
+        {
+            "releaseName": "Subjectivity",
+            "releaseArtist": "Halcyon Arrhythmia",
+            "releaseDate": "2020-12-04",
+            "releaseType": "Single",
+            "coverUrl": "albumart/Subjectivity.jpg",
+            "links": {
+                "bandcamp": "https://halcyonarrhythmia.bandcamp.com/track/subjectivity",
+                "spotify": "https://open.spotify.com/album/2WJdwSIUCobkfjIaRaoofe",
+                "amazonMusic": "https://amazon.com/music/player/albums/B08PQ8CRT4",
+                "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m_Fct9hKm6sE_woGTGtX3GqAK80Od8TWM",
+                "appleMusic": "https://music.apple.com/us/album/subjectivity-single/1543507291",
+                "reddit": "https://www.reddit.com/r/halcyonarrhythmia/comments/10bh37r/release_video_subjectivity/"
+            },
+            "tracks": [
+                {
+                    "trackTitle": "Subjectivity",
+                    "trackNumber": 1,
+                    "trackLength": 201,
+                    "videoLink": "https://youtu.be/Erqs7XXKO7o",
+                    "redditLink": "https://www.reddit.com/r/halcyonarrhythmia/comments/10bh37r/release_video_subjectivity/"
+                }
+            ]
+        },
+        {
+            "releaseName": "Negative Space",
+            "releaseArtist": "Artificial Silence",
+            "releaseDate": "2018-04-13",
+            "releaseType": "Album",
+            "coverUrl": "albumart/NegativeSpace.jpg",
+            "links": {
+                "bandcamp": "https://artificialsilence.bandcamp.com/album/negative-space",
+                "spotify": "https://open.spotify.com/album/3IBoLmOM5ZMoFkHuXckSsx",
+                "amazonMusic": "https://amazon.com/music/player/albums/B07C1WY47K",
+                "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nJ0I02i7fyb4CC_d3O9apVmIqKWgEYqFw",
+                "appleMusic": "https://music.apple.com/us/album/negative-space/1369809530",
+                "reddit": ""
+            },
+            "tracks": [
+                {
+                    "trackTitle": "Skin Deep",
+                    "trackNumber": 1,
+                    "trackLength": 383
+                },
+                {
+                    "trackTitle": "Latency",
+                    "trackNumber": 2,
+                    "trackLength": 266
+                },
+                {
+                    "trackTitle": "Innocent",
+                    "trackNumber": 3,
+                    "trackLength": 230,
+                    "videoLink": "https://youtu.be/GxeeU8j-QVw"
+                },
+                {
+                    "trackTitle": "In the Midst of a Dream",
+                    "trackNumber": 4,
+                    "trackLength": 402
+                },
+                {
+                    "trackTitle": "The Advocate",
+                    "trackNumber": 5,
+                    "trackLength": 702
+                },
+                {
+                    "trackTitle": "Our Happy Home",
+                    "trackNumber": 6,
+                    "trackLength": 472
+                },
+                {
+                    "trackTitle": "Manifest",
+                    "trackNumber": 7,
+                    "trackLength": 120
+                },
+                {
+                    "trackTitle": "Expose",
+                    "trackNumber": 8,
+                    "trackLength": 224
+                },
+                {
+                    "trackTitle": "Negative Space",
+                    "trackNumber": 9,
+                    "trackLength": 459
+                },
+                {
+                    "trackTitle": "A New Perspective",
+                    "trackNumber": 10,
+                    "trackLength": 246
+                },
+                {
+                    "trackTitle": "The Empath",
+                    "trackNumber": 11,
+                    "trackLength": 267
+                }
+            ]
+        },
+        {
+            "releaseName": "Paresis",
+            "releaseArtist": "Halcyon Arrhythmia",
+            "releaseDate": "2016-12-11",
+            "releaseType": "EP",
+            "coverUrl": "albumart/Paresis.jpg",
+            "links": {
+                "bandcamp": "https://halcyonarrhythmia.bandcamp.com/album/paresis",
+                "spotify": "https://open.spotify.com/album/3g29p6gWAM4fOWaYsInSqM",
+                "amazonMusic": "https://amazon.com/music/player/albums/B01MQXUYM2",
+                "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nNVXjxOz5b9FylcACFwISKn5ohnPOPy5s",
+                "appleMusic": "https://music.apple.com/us/album/paresis-single/1185764990",
+                "reddit": ""
+            },
+            "tracks": [
+                {
+                    "trackTitle": "Lambda",
+                    "trackNumber": 1,
+                    "trackLength": 92
+                },
+                {
+                    "trackTitle": "Objectivity",
+                    "trackNumber": 2,
+                    "trackLength": 289
+                },
+                {
+                    "trackTitle": "Aquamarine",
+                    "trackNumber": 3,
+                    "trackLength": 307
+                }
+            ]
+        },
+        {
+            "releaseName": "Atlas Chugged",
+            "releaseArtist": "Atlas Chugged",
+            "releaseDate": "2016-09-01",
+            "releaseType": "Album",
+            "coverUrl": "albumart/AtlasChugged.jpg",
+            "links": {
+                "bandcamp": "https://atlaschugged.bandcamp.com/album/atlas-chugged",
+                "spotify": "https://open.spotify.com/album/2NcOPvYwIjgsTq0WfIAYMW",
+                "amazonMusic": "https://amazon.com/music/player/albums/B01LWAZCT9",
+                "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nGNau1TbAN-DqVAObsZ7J2l2081NnN4VI",
+                "appleMusic": "https://music.apple.com/us/album/atlas-chugged/1150583138",
+                "reddit": ""
+            },
+            "tracks": [
+                {
+                    "trackTitle": "Weight of the World",
+                    "trackNumber": 1,
+                    "trackLength": 138
+                },
+                {
+                    "trackTitle": "Explode into Bones",
+                    "trackNumber": 2,
+                    "trackLength": 188
+                },
+                {
+                    "trackTitle": "Let's Party",
+                    "trackNumber": 3,
+                    "trackLength": 233
+                },
+                {
+                    "trackTitle": "Blood Flood",
+                    "trackNumber": 4,
+                    "trackLength": 276
+                },
+                {
+                    "trackTitle": "Can I Park Here?",
+                    "trackNumber": 5,
+                    "trackLength": 65
+                },
+                {
+                    "trackTitle": "Park on Your Grave",
+                    "trackNumber": 6,
+                    "trackLength": 153
+                },
+                {
+                    "trackTitle": "Don't Vote",
+                    "trackNumber": 7,
+                    "trackLength": 254
+                },
+                {
+                    "trackTitle": "In a Bag",
+                    "trackNumber": 8,
+                    "trackLength": 131
+                },
+                {
+                    "trackTitle": "Sugar Beater",
+                    "trackNumber": 9,
+                    "trackLength": 212
+                },
+                {
+                    "trackTitle": "A Man of No Home",
+                    "trackNumber": 10,
+                    "trackLength": 119
+                },
+                {
+                    "trackTitle": "The Gospel of Awful Apostles",
+                    "trackNumber": 11,
+                    "trackLength": 280
+                },
+                {
+                    "trackTitle": "The House on Entropy Avenue",
+                    "trackNumber": 12,
+                    "trackLength": 282
+                },
+                {
+                    "trackTitle": "Atlas Chugged",
+                    "trackNumber": 13,
+                    "trackLength": 313
+                }
+            ]
+        },
+        {
+            "releaseName": "This Beautiful Night",
+            "releaseArtist": "Halcyon Arrhythmia",
+            "releaseDate": "2015-05-07",
+            "releaseType": "Cover",
+            "coverUrl": "albumart/ThisBeautifulNight.jpg",
+            "links": {
+                "bandcamp": "",
+                "spotify": "https://open.spotify.com/album/7bHqGXQDpEwFV4GBMzMJVs",
+                "amazonMusic": "https://amazon.com/music/player/albums/B01MSTFFD8",
+                "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mbCT3rwrdd5oi7iyNrhm1NeSRvUp3Qzmw",
+                "appleMusic": "https://music.apple.com/us/album/this-beautiful-night-single/1178865488",
+                "reddit": "https://www.reddit.com/r/halcyonarrhythmia/comments/10bg3rf/release_this_beautiful_night/"
+            },
+            "tracks": [
+                {
+                    "trackTitle": "Kingdom Dance",
+                    "trackNumber": 1,
+                    "trackLength": 142,
+                    "videoLink": "https://youtu.be/qkf2ITVtbtE",
+                    "redditLink": "https://www.reddit.com/r/halcyonarrhythmia/comments/zojjft/video_kingdom_dance/"
+                },
+                {
+                    "trackTitle": "Bella Notte",
+                    "trackNumber": 2,
+                    "trackLength": 239,
+                    "videoLink": "https://youtu.be/L7JaM--u3sI",
+                    "redditLink": "https://www.reddit.com/r/halcyonarrhythmia/comments/10oit4x/new_video_bella_notte/"
+                },
+                {
+                    "trackTitle": "Once Upon a December",
+                    "trackNumber": 3,
+                    "trackLength": 180,
+                    "videoLink": "",
+                    "redditLink": ""
+                }
+            ]
+        },
+        {
+            "releaseName": "The Assembly",
+            "releaseArtist": "Halcyon Arrhythmia",
+            "releaseDate": "2014-08-22",
+            "releaseType": "Album",
+            "coverUrl": "albumart/TheAssembly.jpg",
+            "links": {
+                "bandcamp": "https://halcyonarrhythmia.bandcamp.com/album/the-assembly",
+                "spotify": "https://open.spotify.com/album/310QZuN4AxEtOesol9SxaS",
+                "amazonMusic": "https://amazon.com/music/player/albums/B01N78XKDJ",
+                "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kOn4mPNn-jJ9I8SRJTovJfy1T96niFY7M",
+                "appleMusic": "https://music.apple.com/us/album/the-assembly/1179135315",
+                "reddit": ""
+            },
+            "tracks": [
+                {
+                    "trackTitle": "White Light",
+                    "trackNumber": 1,
+                    "trackLength": 196
+                },
+                {
+                    "trackTitle": "Fragment",
+                    "trackNumber": 2,
+                    "trackLength": 307
+                },
+                {
+                    "trackTitle": "Subjectivity",
+                    "trackNumber": 3,
+                    "trackLength": 163
+                },
+                {
+                    "trackTitle": "Adrift",
+                    "trackNumber": 4,
+                    "trackLength": 624
+                },
+                {
+                    "trackTitle": "In the Midst of a Dream",
+                    "trackNumber": 5,
+                    "trackLength": 462
+                },
+                {
+                    "trackTitle": "The Poet",
+                    "trackNumber": 6,
+                    "trackLength": 317
+                },
+                {
+                    "trackTitle": "One More Minute",
+                    "trackNumber": 7,
+                    "trackLength": 60
+                }
+            ]
+        },
+        {
+            "releaseName": "Jon Heartbreak",
+            "releaseArtist": "Jon Heartbreak",
+            "releaseDate": "2012-05-11",
+            "releaseType": "Album",
+            "coverUrl": "albumart/JonHeartbreak.jpg",
+            "links": {
+                "bandcamp": "",
+                "spotify": "https://open.spotify.com/album/7qbtSw1qvTF0DLHKkhVw4I",
+                "amazonMusic": "https://amazon.com/music/player/albums/B0081JANU4",
+                "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kST-MX3tuM1fJq37HCVQ8f0g-qnIkREoE",
+                "appleMusic": "https://music.apple.com/us/album/jon-heartbreak/525433158",
+                "reddit": ""
+            },
+            "tracks": [
+                {
+                    "trackTitle": "Resting in My Hands",
+                    "trackNumber": 1,
+                    "trackLength": 295
+                },
+                {
+                    "trackTitle": "Jacob's Day Out",
+                    "trackNumber": 2,
+                    "trackLength": 226
+                },
+                {
+                    "trackTitle": "The Effect of Unawareness",
+                    "trackNumber": 3,
+                    "trackLength": 197
+                },
+                {
+                    "trackTitle": "Desperate Ears",
+                    "trackNumber": 4,
+                    "trackLength": 299
+                },
+                {
+                    "trackTitle": "Relative Worth",
+                    "trackNumber": 5,
+                    "trackLength": 93
+                },
+                {
+                    "trackTitle": "Tonicize This!",
+                    "trackNumber": 6,
+                    "trackLength": 186
+                },
+                {
+                    "trackTitle": "The Right Way",
+                    "trackNumber": 7,
+                    "trackLength": 275
+                }
+            ]
+        }
+    ]
+}
