@@ -16,14 +16,14 @@ echo > .nojekyll
 echo 'www.halcyonarrhythmia.com' > CNAME
 
 git init
-git checkout -B main
+git checkout -B master
 git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+# git push -f git@github.com:ryliemn/ryliemn.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+git push -f git@github.com:ryliemn/halcyon-arrhythmia-dot-com.git master:gh-pages
 
 cd -
