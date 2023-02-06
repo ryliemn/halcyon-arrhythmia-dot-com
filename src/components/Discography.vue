@@ -30,7 +30,6 @@ async function toggleSelection(releaseName: string) {
 
 async function scrollToRelease(releaseName: string) {
     await nextTick();
-    await nextTick();
     window.scrollTo({
         top: document.getElementById(releaseName)?.offsetTop,
         behavior: "smooth"
