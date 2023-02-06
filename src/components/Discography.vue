@@ -20,11 +20,11 @@ onMounted(async () => {
 async function toggleSelection(releaseName: string) {
     if (selected.value === releaseName) {
         selected.value = "";
-        router.replace('/discography');
+        router.push('/discography');
     } else {
         selected.value = releaseName;
         await scrollToRelease(releaseName);
-        router.replace('/discography/' + releaseName);
+        router.push('/discography/' + releaseName);
     }
 }
 

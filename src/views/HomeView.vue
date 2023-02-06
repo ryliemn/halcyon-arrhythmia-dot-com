@@ -16,7 +16,7 @@ import HomeNav from '../components/HomeNav.vue'
 <style>
 @media (max-width: 640px) {
     main {
-        margin-top: 50%;
+        margin-top: 40%;
     }
 }
 </style>

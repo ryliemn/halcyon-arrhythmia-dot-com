@@ -6,6 +6,18 @@ const emits = defineEmits<{ (e: 'selected', releaseName: string): void }>();
 const formattedDate = computed(
     () => new Date(props.release.releaseDate).toLocaleDateString('en-us', { year: "numeric", month: "long", day: "numeric" }));
 
+const albumArtMap: { [key: string]: string } = {
+    "Indeed True Live": new URL("../assets/albumArt/IndeedTrueLive.jpg", import.meta.url).href,
+    "Halcyon Arrhythmia": new URL("../assets/albumArt/HalcyonArrhythmia.jpg", import.meta.url).href,
+    "Subjectivity": new URL("../assets/albumArt/Subjectivity.jpg", import.meta.url).href,
+    "Paresis": new URL("../assets/albumArt/Paresis.jpg", import.meta.url).href,
+    "The Assembly": new URL("../assets/albumArt/TheAssembly.jpg", import.meta.url).href,
+    "This Beautiful Night": new URL("../assets/albumArt/ThisBeautifulNight.jpg", import.meta.url).href,
+    "Negative Space": new URL("../assets/albumArt/NegativeSpace.jpg", import.meta.url).href,
+    "Atlas Chugged": new URL("../assets/albumArt/AtlasChugged.jpg", import.meta.url).href,
+    "Jon Heartbreak": new URL("../assets/albumArt/JonHeartbreak.jpg", import.meta.url).href,
+};
+
 function getLinkClass(link: string) {
     return {
         'disabled-link': !link
@@ -16,7 +28,7 @@ function getLinkClass(link: string) {
 <template>
     <div class="all-container" :id="release.releaseName">
         <div class="release-container" v-on:click="$emit('selected', release.releaseName)">
-            <img v-bind:src="release.coverUrl" />
+            <img v-bind:src="albumArtMap[release.releaseName]" />
             <div class="pure-g detail-container">
                 <div class="pure-u-13-24 metadata-container">
                     <div>{{ release.releaseName }}</div>
