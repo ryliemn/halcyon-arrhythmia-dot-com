@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { nextTick, onMounted, ref } from "vue";
+import { onMounted, ref } from "vue";
 import { useRouter } from 'vue-router';
 import discography from "../data/discography.json";
 import DiscographyReleaseRow from "./DiscographyReleaseRow.vue";
@@ -17,27 +17,11 @@ onMounted(async () => {
     await scrollToRelease(selected.value);
 });
 
-async function toggleSelection(releaseName: string) {
-    if (selected.value === releaseName) {
-        selected.value = "";
-        router.push('/discography');
-    } else {
-        selected.value = releaseName;
-        await scrollToRelease(releaseName);
-        router.push('/discography/' + releaseName);
-    }
-}
-
 async function scrollToRelease(releaseName: string) {
-    await flushQueue();
     window.scrollTo({
         top: document.getElementById(releaseName)?.offsetTop,
         behavior: "smooth"
     });
-}
-
-function flushQueue() {
-    return new Promise((resolve) => setTimeout(resolve, 0));
 }
 </script>
 
@@ -45,15 +29,15 @@ function flushQueue() {
     <div id="discography">
         <h1>Original Releases</h1>
         <DiscographyReleaseRow v-for="(release, idx) in myReleases" :key="release.releaseName" :release="release"
-            v-on:selected="toggleSelection(release.releaseName)" :is-selected="selected === release.releaseName" />
+            :is-selected="selected === release.releaseName" />
         <hr />
         <h1>Cover Releases</h1>
         <DiscographyReleaseRow v-for="(release, idx) in coverReleases" :key="release.releaseName" :release="release"
-            v-on:selected="toggleSelection(release.releaseName)" :is-selected="selected === release.releaseName" />
+            :is-selected="selected === release.releaseName" />
         <hr />
         <h1>Band Releases</h1>
         <DiscographyReleaseRow v-for="(release, idx) in bandReleases" :key="release.releaseName" :release="release"
-            v-on:selected="toggleSelection(release.releaseName)" :is-selected="selected === release.releaseName" />
+            :is-selected="selected === release.releaseName" />
     </div>
 </template>
 

@@ -1,8 +1,12 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, nextTick, ref } from 'vue';
+import { useRouter } from 'vue-router';
 import DiscographyReleaseTracks from './DiscographyReleaseTracks.vue';
 const props = defineProps<{ release: Release, isSelected: boolean }>();
-const emits = defineEmits<{ (e: 'selected', releaseName: string): void }>();
+const router = useRouter();
+
+let expanded = ref(props.isSelected);
+
 const formattedDate = computed(
     () => new Date(props.release.releaseDate).toLocaleDateString('en-us', { year: "numeric", month: "long", day: "numeric" }));
 
@@ -23,11 +27,24 @@ function getLinkClass(link: string) {
         'disabled-link': !link
     }
 }
+
+async function selectHandler() {
+    expanded.value = !expanded.value;
+    if (expanded.value) {
+        router.push('/discography/' + props.release.releaseName);
+        await nextTick();
+        window.scrollTo({
+            top: document.getElementById(props.release.releaseName)?.offsetTop,
+            behavior: "smooth"
+        });
+    }
+
+}
 </script>
 
 <template>
     <div class="all-container" :id="release.releaseName">
-        <div class="release-container" v-on:click="$emit('selected', release.releaseName)">
+        <div class="release-container" v-on:click="selectHandler()">
             <img v-bind:src="albumArtMap[release.releaseName]" />
             <div class="pure-g detail-container">
                 <div class="pure-u-13-24 metadata-container">
@@ -66,7 +83,7 @@ function getLinkClass(link: string) {
             </div>
         </div>
         <Transition name="slide-fade">
-            <div class="dropdown-container" v-if="isSelected">
+            <div class="dropdown-container" v-if="expanded">
                 <DiscographyReleaseTracks :tracks="release.tracks" />
             </div>
         </Transition>
