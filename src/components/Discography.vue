@@ -29,11 +29,15 @@ async function toggleSelection(releaseName: string) {
 }
 
 async function scrollToRelease(releaseName: string) {
-    await nextTick();
+    await flushQueue();
     window.scrollTo({
         top: document.getElementById(releaseName)?.offsetTop,
         behavior: "smooth"
     });
+}
+
+function flushQueue() {
+    return new Promise((resolve) => setTimeout(resolve, 0));
 }
 </script>
 
