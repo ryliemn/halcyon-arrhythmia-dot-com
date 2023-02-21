@@ -308,7 +308,7 @@
             "releaseType": "Cover",
             "coverUrl": "albumart/ThisBeautifulNight.jpg",
             "links": {
-                "bandcamp": "",
+                "bandcamp": "https://halcyonarrhythmia.bandcamp.com/album/this-beautiful-night",
                 "spotify": "https://open.spotify.com/album/7bHqGXQDpEwFV4GBMzMJVs",
                 "amazonMusic": "https://amazon.com/music/player/albums/B01MSTFFD8",
                 "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mbCT3rwrdd5oi7iyNrhm1NeSRvUp3Qzmw",
@@ -351,7 +351,7 @@
                 "amazonMusic": "https://amazon.com/music/player/albums/B01N78XKDJ",
                 "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kOn4mPNn-jJ9I8SRJTovJfy1T96niFY7M",
                 "appleMusic": "https://music.apple.com/us/album/the-assembly/1179135315",
-                "reddit": ""
+                "reddit": "https://www.reddit.com/r/halcyonarrhythmia/comments/117u7kc/release_the_assembly/"
             },
             "tracks": [
                 {
