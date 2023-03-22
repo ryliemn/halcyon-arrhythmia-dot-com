@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HomeHeader from '../components/HomeHeader.vue'
+import HomeVideo from '../components/HomeVideo.vue'
 import HomeNav from '../components/HomeNav.vue'
 </script>
 
@@ -7,7 +8,7 @@ import HomeNav from '../components/HomeNav.vue'
     <main>
         <header>
             <HomeHeader />
-
+            <HomeVideo />
             <HomeNav />
         </header>
     </main>
@@ -18,5 +19,11 @@ import HomeNav from '../components/HomeNav.vue'
     main {
         margin-top: 40%;
     }
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 </style>
