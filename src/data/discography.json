@@ -1,6 +1,47 @@
 {
     "releases": [
         {
+            "releaseName": "Session I",
+            "releaseArtist": "Halcyon Arrhythmia",
+            "releaseDate": "2023-03-24",
+            "releaseType": "Cover",
+            "coverUrl": "albumart/SessionI.jpg",
+            "links": {
+                "bandcamp": "https://halcyonarrhythmia.bandcamp.com/album/session-i",
+                "spotify": "https://open.spotify.com/album/0P2ZICC8kFvzqjir0D9vHr",
+                "amazonMusic": "https://www.amazon.com/music/player/albums/B0BYTDGNPL",
+                "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lHwdLITj6BMJDFZqO9gd_o13uQ2Tmp8oI",
+                "appleMusic": "https://music.apple.com/us/album/session-i-ep/1677837410",
+                "reddit": "https://www.reddit.com/r/halcyonarrhythmia/comments/120nfwl/release_session_i/"
+            },
+            "tracks": [
+                {
+                    "trackTitle": "Eternal Harvest",
+                    "trackNumber": 1,
+                    "trackLength": 246,
+                    "videoLink": "https://youtu.be/xLhD071c71A",
+                    "redditLink": "https://www.reddit.com/r/halcyonarrhythmia/comments/120nj8h/video_eternal_harvest/"
+                },
+                {
+                    "trackTitle": "Overture",
+                    "trackNumber": 2,
+                    "trackLength": 145
+                },
+                {
+                    "trackTitle": "Wait for Sleep",
+                    "trackNumber": 3,
+                    "trackLength": 225
+                },
+                {
+                    "trackTitle": "marinahzz jam",
+                    "trackNumber": 4,
+                    "trackLength": 127,
+                    "videoLink": "https://youtu.be/rGpHqcVMlzQ",
+                    "redditLink": "https://www.reddit.com/r/halcyonarrhythmia/comments/120nkhe/video_marinahzz_jam/"
+                }
+            ]
+        },
+        {
             "releaseName": "Indeed True Live",
             "releaseArtist": "Artificial Silence",
             "releaseDate": "2022-10-07",

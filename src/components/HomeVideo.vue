@@ -2,8 +2,8 @@
 </script>
 
 <template>
-    <h3>latest video: Once Upon a December</h3>
-    <iframe src="https://www.youtube.com/embed/h98QK4636kA" title="YouTube video player" frameborder="0"
+    <h3>latest video: Eternal Harvest</h3>
+    <iframe src="https://www.youtube.com/embed/xLhD071c71A" title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
     </iframe>

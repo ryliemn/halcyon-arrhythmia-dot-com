@@ -11,6 +11,7 @@ const formattedDate = computed(
     () => new Date(props.release.releaseDate).toLocaleDateString('en-us', { year: "numeric", month: "long", day: "numeric" }));
 
 const albumArtMap: { [key: string]: string } = {
+    "Session I": new URL("../assets/albumArt/SessionI.jpg", import.meta.url).href,
     "Indeed True Live": new URL("../assets/albumArt/IndeedTrueLive.jpg", import.meta.url).href,
     "Halcyon Arrhythmia": new URL("../assets/albumArt/HalcyonArrhythmia.jpg", import.meta.url).href,
     "Subjectivity": new URL("../assets/albumArt/Subjectivity.jpg", import.meta.url).href,
