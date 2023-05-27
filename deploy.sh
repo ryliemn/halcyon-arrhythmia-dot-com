@@ -22,7 +22,7 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 # run separately to deploy!!!!
-# git push -f git@github.com:ryliemn/ryliemn.github.io.git master
+git push -f git@github.com:ryliemn/ryliemn.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:ryliemn/halcyon-arrhythmia-dot-com-dist.git master
